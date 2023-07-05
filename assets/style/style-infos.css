@@ -1,0 +1,16 @@
+/* ---------------------------------- MAIN ---------------------------------- */
+
+.main-container {
+    color: rgb(217, 217, 217);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------------------ MEDIA-QUERIES ----------------------------- */
+
+@media screen and (max-width: 630px) {
+    .main-container {
+        padding: 25px;
+    }
+}

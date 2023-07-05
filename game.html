@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAD BLOCK</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/style-game.css">
+</head>
+<body>
+    <div id="touch-right"></div>
+    <div id="touch-left"></div>
+    <a href="./index.html">
+        <div class="exit-button">
+            <div id="cross"></div>
+        </div>
+        <div class="exit-button" id="stopwatch">
+            <div id="cross"></div>
+        </div>
+    </a>
+    <main>
+        <div class="left-part-container main-part">
+            <div class="bad-block-container bad-block-container1">
+                <!-- <div class="bad-block-yellow block"></div> -->
+            </div>
+            <div class="user-block-container1 user-block-container">
+            </div>
+        </div>
+        <div class="center-part-container main-part">
+            <div class="bad-block-container bad-block-container2">
+                <!-- <div class="bad-block-red block"></div> -->
+            </div>
+            <div class="user-block-container2 user-block-container">
+                <div id="user-block" class="block"></div>
+            </div>
+        </div>
+        <div class="right-part-container main-part">
+            <div class="bad-block-container bad-block-container3">
+                <!-- <div class="bad-block-violet block"></div> -->
+            </div>
+            <div class="user-block-container3 user-block-container">
+            </div>
+        </div>
+    </main>
+    <section class="game-over-container remove">
+        <div class="game-over-card">
+            <div class="game-over-appreciation-container">
+                <h2><span id="appreciation">You are a looser !</span></h2>
+                <h3><span id="time">1 minute et 24 secondes</span></h3>
+            </div>
+            <div class="game-over-button-container">
+                <a href="./game.html"><button class="game-over-button">Retry</button></a>
+                <a href="./index.html"><button class="game-over-button">Exit</button></a>
+            </div>
+        </div>
+    </section>
+    <script src="./javascript/game.js"></script>
+</body>
+</html>
